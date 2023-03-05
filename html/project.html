@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Coinbase Landing Page</title>
   </head>
@@ -52,26 +53,31 @@
         </button>
       </div>
     </nav>
-    <section class="container-sm my-5 py-5">
-      <div class="row gx-5 justify-content-center">
-        <div class="col-3">
-          <article>
-            <div>
-              <a>Jump Start your portfolio</a>
-              <i>icon arrow</i>
+    <section class="container-md my-5 py-5">
+      <div class="row row-col-5 gx-5 justify-content-evenly">
+        <div class="col-md-5">
+          <article class="col">
+            <div class="row link-primary mb-3">
+              <a>Jump start your portfolio <i class=" bi bi-arrow-right-short"></i></a>     
             </div>
-            <h1 class="lh-sm fs-1">Jump Start your crypto portfolio</h1>
-            <span
-              >Coinbase us the easiest place to buy and sell cryptocurrency. Sign up
-              and get started today.</span
-            >
-            <form>
-              <input type="email"  placeholder="Email address" />
-              <button type="submit">Get started</button>
-            </form>
+            <div class="row mb-3">
+              <h1 class="display-3 lh-1">Jump start</h1>
+              <h1 class="display-3 lh-1">your crypto</h1>
+              <h1 class="display-3 lh-1 mb-3">portfolio</h1>
+              <span>Coinbase us the easiest place to buy and sell</span>
+              <span>cryptocurrency. Sign up and get started today.</span>
+            </div>
+              <form class="row mb-3 form-inline">
+                <div class="col-md-6">
+                  <input  class="form-control" type="email"  placeholder="Email address" />
+                </div>
+                <div class="col-md-6">
+                  <button class="btn btn-primary fw-semibold px-4" type="submit">Get started</button>
+                </div>
+              </form>
           </article>
         </div>
-        <div class="col-4">
+        <div class="col-md-3">
           <img class="float-end" width="300px"
           src="../assets/img/wallet-screenshot.png"
           alt="wallet coinbase screenshot"
